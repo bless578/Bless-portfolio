@@ -369,9 +369,9 @@ h3{
 .skills-box{
     margin: 10px;
     background: var(--card-bg);
-    border-radius: 12px;
+    border-radius: 6px;
     box-shadow: 0 2px 8px var(--first-shadow-color);
-    padding: 16px 24px;
+    padding: 5px 10px;
 }
 .skills-header{
     margin-bottom: 30px;
@@ -758,16 +758,25 @@ footer{
     .input-field{
         width: 100%;
     }
+
+    .skills-box {
+    margin: 50px 0;
+    padding: 5px;
+    }
     .skills-section .cells {
         flex-direction: column;
-        gap: 12px;
+        gap: 15px;
+        padding: 0 10px;
     }
     .testimony-section .group {
         flex-direction: column;
         gap: 12px;
     }
 
-    nav.nav-shrink {
+    .nav {
+    transition: height 0.3s, line-height 0.3s, padding 0.3s;
+  }
+    .nav.nav-shrink {
     height: 50px;
     line-height: 50px;
     padding-inline: 5vw;
